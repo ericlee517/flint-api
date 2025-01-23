@@ -1,0 +1,7 @@
+[[headers]]
+  # 匹配所有路径，你也可以指定具体的 JSON 文件路径，如 "/your-json-file.json"
+  for = "/*" 
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Origin, X-Requested-With, Content-Type, Accept"
